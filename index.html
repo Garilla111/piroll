@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piroll</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -23,24 +28,25 @@
                             <a class="header_link" href="#hero">Home</a>
                         </li>
                         <li class="header_item">
-                            <a class="header_link" href="#hero">Home</a>
+                            <a class="header_link" href="#about">About</a>
                         </li>
                         <li class="header_item">
-                            <a class="header_link" href="#hero">Home</a>
+                            <a class="header_link" href="#skills">Skills</a>
                         </li>
-                       
+
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="hero" id="hero">
+        <!-- <section class="hero" id="hero">
             <div class="container">
                 <div class="hero_wrap">
                     <div class="hero_block">
                         <h1 class="hero_heading common_heading">We Design and Develop</h1>
-                        <p class="hero_text common_text">We are a new design studio based in USA. We have over 20 years of
+                        <p class="hero_text common_text">We are a new design studio based in USA. We have over 20 years
+                            of
                             combined experience, and know a thing or two about designing websites
                             and mobile apps.</p>
                         <button class="hero_button common_text">Contact Us</button>
@@ -48,11 +54,12 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about_wrap">
                     <h2 class="about_heading common_heading">About us</h2>
-                    <p class="about_text common_text">Divide have don't man wherein air fourth. Own itself make have night won't make. A
+                    <p class="about_text common_text">Divide have don't man wherein air fourth. Own itself make have
+                        night won't make. A
                         you under Seed appear which good give. Own give air without fowl moveth dry first
                         heaven fruit, dominion she'd won't very all.</p>
                     <div class="about_sign">
@@ -61,9 +68,153 @@
                 </div>
             </div>
         </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills_wrap">
+                    <div class="skills_left">
+                        <h2 class="skills_heading common_heading">Professional skills</h2>
+                        <ul class="skills_block">
+                            <li class="skills_item">
+                                <div class="skills_title">
+                                    <span class="skills_text common_heading">UI/UX Design</span>
+                                    <span class="skills_percent common_heading">75%</span>
+                                </div>
+                                <div class="skills_line">
+                                    <div class="skills_level" id="lvl75"></div>
+                                </div>
+                            </li>
+                            <li class="skills_item">
+                                <div class="skills_title">
+                                    <span class="skills_text common_heading">web development</span>
+                                    <span class="skills_percent common_heading">90%</span>
+                                </div>
+                                <div class="skills_line">
+                                    <div class="skills_level" id="lvl90"></div>
+                                </div>
+                            </li>
+                            <li class="skills_item">
+                                <div class="skills_title">
+                                    <span class="skills_text common_heading">marketing</span>
+                                    <span class="skills_percent common_heading">65%</span>
+                                </div>
+                                <div class="skills_line">
+                                    <div class="skills_level" id="lvl65"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="achievements">
+            <div class="container">
+                <ul class="achievements_list">
+                    <li class="achievements_item">
+                        <div class="achievements_icon">
+                            <i class="pe-7s-portfolio"></i>
+                        </div>
+                        <span class="achievements_num">548</span>
+                        <p class="achievements_text">PROJECTS COMPLETED</p>
+                    </li>
+                    <li class="achievements_item">
+                        <div class="achievements_icon">
+                            <i class="pe-7s-clock"></i>
+                        </div>
+                        <span class="achievements_num">1465</span>
+                        <p class="achievements_text">WORKING HOURS</p>
+                    </li>
+                    <li class="achievements_item">
+                        <div class="achievements_icon">
+                            <i class="pe-7s-star"></i>
+                        </div>
+                        <span class="achievements_num">612</span>
+                        <p class="achievements_text">POSITIVE FEEDBACKS</p>
+                    </li>
+                    <li class="achievements_item">
+                        <div class="achievements_icon">
+                            <i class="pe-7s-like"></i>
+                        </div>
+                        <span class="achievements_num">735</span>
+                        <p class="achievements_text">HAPPY CLIENTS</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery_wrap">
+                    <div class="gallery_grid">
+
+                        <div class="gallery_item">
+                            <img src="./img/g1.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g2.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g3.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g4.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g5.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g6.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g7.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g8.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g9.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g10.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g11.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                        <div class="gallery_item">
+                            <img src="./img/g12.jpg" alt="">
+                            <div class="gallery_hover"><i class="pe-7s-look"></i></div>
+                        </div>
+                    </div>
+                    <button class="gallery_button">Load more work</button>
+                </div>
+            </div>
+        </section> -->
+        <section class="our">
+            <div class="container">
+                <div class="our_wrap">
+                        <h2 class="our_heading common_heading"> Our Work Process</h2>
+                        <p class="our_text common_text">Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+                        <div class="our_video">
+                            <video src="./video/video.mp4"></video>
+                            <button class="our_button"><i class="pe-7s-play"></i></button>
+                        </div>
+                </div>
+        </section>
     </main>
+
     <footer class="footer">
 
     </footer>
 </body>
+
 </html>
