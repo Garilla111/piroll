@@ -16,12 +16,18 @@
 </head>
 
 <body>
-    <header class="header">
+     <header class="header">
         <div class="container">
             <div class="header_wrap">
                 <div class="header_logo">
                     <img src="./img/favicon.png" alt="">
                 </div>
+                <input type="checkbox" id="burger_check">
+                <label for="burger_check" class="burger">
+                    <div class="line line_top"></div>
+                    <div class="line line_middle"></div>
+                    <div class="line line_bottom"></div>
+                </label>
                 <nav class="header_nav">
                     <ul class="header_list">
                         <li class="header_item header_active">
@@ -33,14 +39,22 @@
                         <li class="header_item">
                             <a class="header_link" href="#skills">Skills</a>
                         </li>
-
+                        <li class="header_item">
+                            <a class="header_link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="header_item">
+                            <a class="header_link" href="#our">Work</a>
+                        </li>
+                        <li class="header_item">
+                            <a class="header_link" href="#contact">Contacts</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </header>
+    </header> 
     <main class="main">
-        <!-- <section class="hero" id="hero">
+         <section class="hero" id="hero">
             <div class="container">
                 <div class="hero_wrap">
                     <div class="hero_block">
@@ -49,7 +63,7 @@
                             of
                             combined experience, and know a thing or two about designing websites
                             and mobile apps.</p>
-                        <button class="hero_button common_text">Contact Us</button>
+                        <button class="hero_button common_text"><a href="#contact">Contact Us</a></button>
                     </div>
                 </div>
             </div>
@@ -107,7 +121,7 @@
             </div>
             </div>
         </section>
-        <section class="achievements">
+        <section class="achievements" id="achievements">
             <div class="container">
                 <ul class="achievements_list">
                     <li class="achievements_item">
@@ -141,7 +155,7 @@
                 </ul>
             </div>
         </section>
-        <section class="gallery">
+         <section class="gallery" id="gallery">
             <div class="container">
                 <div class="gallery_wrap">
                     <div class="gallery_grid">
@@ -198,8 +212,8 @@
                     <button class="gallery_button">Load more work</button>
                 </div>
             </div>
-        </section> -->
-        <section class="our">
+        </section> 
+        <section class="our" id="our">
             <div class="container">
                 <div class="our_wrap">
                         <h2 class="our_heading common_heading"> Our Work Process</h2>
@@ -210,11 +224,144 @@
                         </div>
                 </div>
         </section>
+         <section class="prof" id="prof">
+            <div class="container">
+                <div class="prof_wrap">
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-diamond"></i></div>
+                        <h3 class="prof_heading">ui / ux design</h3>
+                        <p class="prof_text">Be set fourth land god darkness make it wherein own</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-arc"></i></div>
+                        <h3 class="prof_heading">web development</h3>
+                        <p class="prof_text">A she'd them bring void moving third she'd kind fill</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-phone"></i></div>
+                        <h3 class="prof_heading">app / mobile</h3>
+                        <p class="prof_text">Dominion man second spirit he, earth they're creeping</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-joy"></i></div>
+                        <h3 class="prof_heading">game design</h3>
+                        <p class="prof_text">Morning his saying moveth it multiply appear life be</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-plane"></i></div>
+                        <h3 class="prof_heading">SEO / marketing</h3>
+                        <p class="prof_text">Give won't after land fill creeping meat you, may</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-star"></i></div>
+                        <h3 class="prof_heading">photography</h3>
+                        <p class="prof_text">Creepeth one seas cattle grass give moving saw give</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-coffee"></i></div>
+                        <h3 class="prof_heading">graphic design</h3>
+                        <p class="prof_text">Open, great whales air rule for, fourth life whales</p>
+                    </div>
+                    <div class="prof_item">
+                        <div class="prof_icon"><i class="pe-7s-box1"></i></div>
+                        <h3 class="prof_heading">illustrations</h3>
+                        <p class="prof_text">Whales likeness hath, man kind for them air two won't</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+       
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <div class="reviews_wrap">
+                        <div class="reviews_text">
+                            <p class="common_text">“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</p>
+                            <span class="common_text">Michael Hopkins</span>
+                        </div>
+                        <button class="reviews_button button_left"><i class="pe-7s-angle-left"></i></button>
+                        <button class="reviews_button button_right"><i class="pe-7s-angle-right"></i></button>
+                         <div class="reviews_pages">
+                            <div class="reviews_line reviews_line_active"></div>
+                            <div class="reviews_line"></div>
+                            <div class="reviews_line"></div>
+                         </div>
+                    </div>
+                </div>
+          
+        </section>
+         <section class="partners" id="partners">
+              <div class="container">
+                <ul class="partners_wrap">
+                  <li class="partners_photo">
+                    <img src="./img/b1.jpg" alt="partner1">
+                  </li>
+                  <li class="partners_photo">
+                    <img src="./img/b2.jpg" alt="partner2">
+                  </li>
+                  <li class="partners_photo">
+                    <img src="./img/b3.jpg" alt="partner3">
+                  </li>
+                  <li class="partners_photo">
+                    <img src="./img/b4.jpg" alt="partner4">
+                  </li>
+                  <li class="partners_photo">
+                    <img src="./img/b5.jpg" alt="partner5">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section> 
+     <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact_wrap">
+                <h2 class="contact_heading common_heading">Need a project?</h2>
+                <p class="contact_text common_text">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of
+something beautiful.</p>
+                <form action="" class="contact_form">
+                    <input type="text" class="contact_input_name common_input" placeholder="Your name">
+                    <input type="email" class="contact_input_email common_input" placeholder="Your email">
+                    <input type="text" class="contact_input_title common_input" placeholder="Your title">
+                    <textarea class="contact_input_comment common_input" placeholder="Your comment"></textarea>
+                    <button class="contact_button">Send message</button>
+                </form>
+            </div>
+
+        </div>
+        
+    </section> 
     </main>
 
     <footer class="footer">
-
-    </footer>
+        <div class="container">
+            <div class="footer_wrap">
+                <div class="footer_info">
+                    <h3 class="footer_heading common_heading">Piroll Design, Inc.</h3>
+                    <div class="footer_copy">
+                        <span class="footer_text common_text">© 2017 Piroll. All rights reserved.</span>
+                        <span class="footer_text common_text">Designed by robirurk.</span>
+                    </div>
+                </div>
+                <address class="footer_contact">
+                    <span class="footer_text common_text">hello@pirolltheme.com</span>
+                    <span class="footer_text common_text">+44 987 065 908</span>
+                </address>
+                <ul class="footer_social">
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                    <li class="footer_item"><a href="" class="footer_link">Gosuslugi</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer> 
 </body>
 
 </html>
